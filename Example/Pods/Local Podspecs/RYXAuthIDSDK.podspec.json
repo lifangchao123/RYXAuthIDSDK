@@ -1,0 +1,22 @@
+{
+  "name": "RYXAuthIDSDK",
+  "version": "0.1.0",
+  "summary": "A short description of RYXAuthIDSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lifangchao123/RYXAuthIDSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lifangchao123": "1228830203@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lifangchao123/RYXAuthIDSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RYXAuthIDSDK/Classes/**/*"
+}

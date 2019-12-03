@@ -1,0 +1,6 @@
+framework module Pods_RYXAuthIDSDK_Tests {
+  umbrella header "Pods-RYXAuthIDSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

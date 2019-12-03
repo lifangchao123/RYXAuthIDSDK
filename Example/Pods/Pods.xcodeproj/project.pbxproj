@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F4DE5B1950D07BC944906C47A9CD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2E5089106CFB84A64FCB834F50EED63B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		397B462E2D1283C5B149DA183BD33320 /* RYXAuthIDSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA0E103B305ED1464A1E962CEC6F2A4 /* RYXAuthIDSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E11BEE2BC9EA93DDDB278E6A0025C08 /* Pods-RYXAuthIDSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F1807B226D16AA5B24CBC0C8E603 /* Pods-RYXAuthIDSDK_Example-dummy.m */; };
+		99DE583A09A3C2B678CD589ABA983070 /* Pods-RYXAuthIDSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B0E7C5056C2501EA3AEC5CC32191A7 /* Pods-RYXAuthIDSDK_Tests-dummy.m */; };
+		B15C222E8E858272D84F8884C0BA8BB9 /* RYXAuthIDSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D4ACCFACA5C75B08499DA7ED8527D /* RYXAuthIDSDK-dummy.m */; };
+		BB072ACD2396344000CD6953 /* RYXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB072ACB2396344000CD6953 /* RYXLabel.m */; };
+		BB072ACE2396344000CD6953 /* RYXLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BB072ACC2396344000CD6953 /* RYXLabel.h */; };
+		C73BE13BCDDD2C92E5802FA0C36500FF /* Pods-RYXAuthIDSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 832144A348E681B2333A0CE1EA16A987 /* Pods-RYXAuthIDSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE03DD1B66F5541B808CC5188C534418 /* Pods-RYXAuthIDSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A738E50EE87A02637EF058BD9514FD67 /* Pods-RYXAuthIDSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7149381FA90827258EEE75F75B71118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FCFB451FF3966A26E58ABD1B6182267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D988A82622DCD581C739C7DF3BC844F;
+			remoteInfo = "Pods-RYXAuthIDSDK_Example";
+		};
+		BE2B71689FC7F2018537C96FE5170CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC5D19612BA37AF7EE5718322549FCD;
+			remoteInfo = RYXAuthIDSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B0E7C5056C2501EA3AEC5CC32191A7 /* Pods-RYXAuthIDSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYXAuthIDSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		1ADF98F216808C8378DE2732AC0C1800 /* Pods-RYXAuthIDSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYXAuthIDSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		1C88F2965428353A145D7A103AA861D9 /* Pods_RYXAuthIDSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYXAuthIDSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA142F448DC9BE1E57DD53610D0FCD3 /* RYXAuthIDSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYXAuthIDSDK.xcconfig; sourceTree = "<group>"; };
+		26DF68E6A3586BBD5E706A0953F45C48 /* Pods-RYXAuthIDSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYXAuthIDSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		2EF27972E7D9F433AFA4CE2CB8C7C7B0 /* Pods-RYXAuthIDSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYXAuthIDSDK_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3755F69BA4C6BCBB9D29983047DC5BB1 /* Pods-RYXAuthIDSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYXAuthIDSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3AD3AF3FA75F0147C4E5B71C640B9DA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F796722DCA44079D399F25157DBE23C /* Pods-RYXAuthIDSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYXAuthIDSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4150209CCB480325F58C765AA2778798 /* Pods-RYXAuthIDSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYXAuthIDSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5069A6EFD4A59442A63EE7D96904DB8E /* RYXAuthIDSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RYXAuthIDSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA0E103B305ED1464A1E962CEC6F2A4 /* RYXAuthIDSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYXAuthIDSDK-umbrella.h"; sourceTree = "<group>"; };
+		6B566CD70C1D0BD948799BDA8BC0FB70 /* RYXAuthIDSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RYXAuthIDSDK-Info.plist"; sourceTree = "<group>"; };
+		7E23F1807B226D16AA5B24CBC0C8E603 /* Pods-RYXAuthIDSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYXAuthIDSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		814FC99EDE62112F2D5B63D5A0840FBE /* Pods-RYXAuthIDSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYXAuthIDSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		832144A348E681B2333A0CE1EA16A987 /* Pods-RYXAuthIDSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYXAuthIDSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8456BB2DC897C2DFF1581FCEE55041D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0CEF2F84CAE936E79C53F5B1253C2CE /* RYXAuthIDSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYXAuthIDSDK.modulemap; sourceTree = "<group>"; };
+		A738E50EE87A02637EF058BD9514FD67 /* Pods-RYXAuthIDSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYXAuthIDSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		A8CE06E97210300DBEB8486977D1CA54 /* Pods-RYXAuthIDSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYXAuthIDSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6BD4355749B4353D32981C8028A5C9C /* Pods-RYXAuthIDSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYXAuthIDSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB072ACB2396344000CD6953 /* RYXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RYXLabel.m; path = RYXAuthIDSDK/Classes/RYXLabel.m; sourceTree = "<group>"; };
+		BB072ACC2396344000CD6953 /* RYXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RYXLabel.h; path = RYXAuthIDSDK/Classes/RYXLabel.h; sourceTree = "<group>"; };
+		C23D4ACCFACA5C75B08499DA7ED8527D /* RYXAuthIDSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYXAuthIDSDK-dummy.m"; sourceTree = "<group>"; };
+		C272FD5C55699F0D4B66A0328B30517E /* Pods-RYXAuthIDSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYXAuthIDSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		C3AB2B59AA85639A7CCD3B8A358FB857 /* RYXAuthIDSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYXAuthIDSDK-prefix.pch"; sourceTree = "<group>"; };
+		D96A192DA492EF8AF0C118E8CE0CAFE5 /* RYXAuthIDSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RYXAuthIDSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DBA27F5E37C222F6F10BC7015E49A611 /* Pods-RYXAuthIDSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYXAuthIDSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E223BF83644B4B29388EF6B150896E1A /* Pods_RYXAuthIDSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYXAuthIDSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DB35E26927B0565CE84E8D62A87789 /* Pods-RYXAuthIDSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYXAuthIDSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDCDBF0DDED74AFE7D205EB227307F45 /* Pods-RYXAuthIDSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYXAuthIDSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64391367547D74424029148F569D7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7149381FA90827258EEE75F75B71118 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC57628D309ECC487BAECC0691F219FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F4DE5B1950D07BC944906C47A9CD00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99DF39E4B15A47C6C3AB63F8A1D10F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5089106CFB84A64FCB834F50EED63B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD7E2D21B13EE5E84396E19A59ADFC9 /* Pods-RYXAuthIDSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C272FD5C55699F0D4B66A0328B30517E /* Pods-RYXAuthIDSDK_Tests.modulemap */,
+				3F796722DCA44079D399F25157DBE23C /* Pods-RYXAuthIDSDK_Tests-acknowledgements.markdown */,
+				F8DB35E26927B0565CE84E8D62A87789 /* Pods-RYXAuthIDSDK_Tests-acknowledgements.plist */,
+				05B0E7C5056C2501EA3AEC5CC32191A7 /* Pods-RYXAuthIDSDK_Tests-dummy.m */,
+				1ADF98F216808C8378DE2732AC0C1800 /* Pods-RYXAuthIDSDK_Tests-Info.plist */,
+				832144A348E681B2333A0CE1EA16A987 /* Pods-RYXAuthIDSDK_Tests-umbrella.h */,
+				814FC99EDE62112F2D5B63D5A0840FBE /* Pods-RYXAuthIDSDK_Tests.debug.xcconfig */,
+				3755F69BA4C6BCBB9D29983047DC5BB1 /* Pods-RYXAuthIDSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-RYXAuthIDSDK_Tests";
+			path = "Target Support Files/Pods-RYXAuthIDSDK_Tests";
+			sourceTree = "<group>";
+		};
+		2D0D55B3E5CE3717005517DDF093197C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8456BB2DC897C2DFF1581FCEE55041D8 /* LICENSE */,
+				3AD3AF3FA75F0147C4E5B71C640B9DA5 /* README.md */,
+				D96A192DA492EF8AF0C118E8CE0CAFE5 /* RYXAuthIDSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3ED32AA76154FD45D39F2820FA76FE01 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8C4D35DDD461BC1A7B190201959D7B0 /* RYXAuthIDSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		414313E1D5F77B4B3FD5358B0F2EA9A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0CEF2F84CAE936E79C53F5B1253C2CE /* RYXAuthIDSDK.modulemap */,
+				1DA142F448DC9BE1E57DD53610D0FCD3 /* RYXAuthIDSDK.xcconfig */,
+				C23D4ACCFACA5C75B08499DA7ED8527D /* RYXAuthIDSDK-dummy.m */,
+				6B566CD70C1D0BD948799BDA8BC0FB70 /* RYXAuthIDSDK-Info.plist */,
+				C3AB2B59AA85639A7CCD3B8A358FB857 /* RYXAuthIDSDK-prefix.pch */,
+				5DA0E103B305ED1464A1E962CEC6F2A4 /* RYXAuthIDSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RYXAuthIDSDK";
+			sourceTree = "<group>";
+		};
+		8ADB4A6506DDBEB4B0D02B4DFCA929EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB513DC840FD4EB97C7D5454208EC21E /* Pods-RYXAuthIDSDK_Example */,
+				1BD7E2D21B13EE5E84396E19A59ADFC9 /* Pods-RYXAuthIDSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB513DC840FD4EB97C7D5454208EC21E /* Pods-RYXAuthIDSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2EF27972E7D9F433AFA4CE2CB8C7C7B0 /* Pods-RYXAuthIDSDK_Example.modulemap */,
+				B6BD4355749B4353D32981C8028A5C9C /* Pods-RYXAuthIDSDK_Example-acknowledgements.markdown */,
+				A8CE06E97210300DBEB8486977D1CA54 /* Pods-RYXAuthIDSDK_Example-acknowledgements.plist */,
+				7E23F1807B226D16AA5B24CBC0C8E603 /* Pods-RYXAuthIDSDK_Example-dummy.m */,
+				FDCDBF0DDED74AFE7D205EB227307F45 /* Pods-RYXAuthIDSDK_Example-frameworks.sh */,
+				26DF68E6A3586BBD5E706A0953F45C48 /* Pods-RYXAuthIDSDK_Example-Info.plist */,
+				A738E50EE87A02637EF058BD9514FD67 /* Pods-RYXAuthIDSDK_Example-umbrella.h */,
+				DBA27F5E37C222F6F10BC7015E49A611 /* Pods-RYXAuthIDSDK_Example.debug.xcconfig */,
+				4150209CCB480325F58C765AA2778798 /* Pods-RYXAuthIDSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-RYXAuthIDSDK_Example";
+			path = "Target Support Files/Pods-RYXAuthIDSDK_Example";
+			sourceTree = "<group>";
+		};
+		BD78C00273F71A1509D2F5DB16788DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E223BF83644B4B29388EF6B150896E1A /* Pods_RYXAuthIDSDK_Example.framework */,
+				1C88F2965428353A145D7A103AA861D9 /* Pods_RYXAuthIDSDK_Tests.framework */,
+				5069A6EFD4A59442A63EE7D96904DB8E /* RYXAuthIDSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8C4D35DDD461BC1A7B190201959D7B0 /* RYXAuthIDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BB072ACC2396344000CD6953 /* RYXLabel.h */,
+				BB072ACB2396344000CD6953 /* RYXLabel.m */,
+				2D0D55B3E5CE3717005517DDF093197C /* Pod */,
+				414313E1D5F77B4B3FD5358B0F2EA9A7 /* Support Files */,
+			);
+			name = RYXAuthIDSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3ED32AA76154FD45D39F2820FA76FE01 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BD78C00273F71A1509D2F5DB16788DD3 /* Products */,
+				8ADB4A6506DDBEB4B0D02B4DFCA929EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C3B0141F02FA9CF28B5122A689DCF95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73BE13BCDDD2C92E5802FA0C36500FF /* Pods-RYXAuthIDSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3057E38AE702AC52D482025FB30F66D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397B462E2D1283C5B149DA183BD33320 /* RYXAuthIDSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C68BD989D3DF4203B142C218F8650B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE03DD1B66F5541B808CC5188C534418 /* Pods-RYXAuthIDSDK_Example-umbrella.h in Headers */,
+				BB072ACE2396344000CD6953 /* RYXLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EDE2F00697FBAB8D80086C156CA80C2 /* Pods-RYXAuthIDSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61B28753771113412054EA64FAB7877 /* Build configuration list for PBXNativeTarget "Pods-RYXAuthIDSDK_Tests" */;
+			buildPhases = (
+				0C3B0141F02FA9CF28B5122A689DCF95 /* Headers */,
+				1117825352EF164256D3E0DF32D4E604 /* Sources */,
+				A64391367547D74424029148F569D7CC /* Frameworks */,
+				F4270058C46230805C8946DE716E004C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEBBE2D5574EEDB62D38400A9A981EE /* PBXTargetDependency */,
+			);
+			name = "Pods-RYXAuthIDSDK_Tests";
+			productName = "Pods-RYXAuthIDSDK_Tests";
+			productReference = 1C88F2965428353A145D7A103AA861D9 /* Pods_RYXAuthIDSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FC5D19612BA37AF7EE5718322549FCD /* RYXAuthIDSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AE9DC4A04A5F050CCB96C94C8DEB0F /* Build configuration list for PBXNativeTarget "RYXAuthIDSDK" */;
+			buildPhases = (
+				3057E38AE702AC52D482025FB30F66D4 /* Headers */,
+				E8B8B3AFFE9F5AD4DD38B6F36C4C00CD /* Sources */,
+				C99DF39E4B15A47C6C3AB63F8A1D10F7 /* Frameworks */,
+				3C734023AD8249C49C0E01BCDA6FCC54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYXAuthIDSDK;
+			productName = RYXAuthIDSDK;
+			productReference = 5069A6EFD4A59442A63EE7D96904DB8E /* RYXAuthIDSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D988A82622DCD581C739C7DF3BC844F /* Pods-RYXAuthIDSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41C41B657F0B90565A7B346AC039A29 /* Build configuration list for PBXNativeTarget "Pods-RYXAuthIDSDK_Example" */;
+			buildPhases = (
+				8C68BD989D3DF4203B142C218F8650B0 /* Headers */,
+				7E098CD771A511C6F7A8B6091EF01E7C /* Sources */,
+				BC57628D309ECC487BAECC0691F219FC /* Frameworks */,
+				84628301270C339C4D509BE207E0E413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EC44FD2E5A53BC65EFE01A79EDE7D31 /* PBXTargetDependency */,
+			);
+			name = "Pods-RYXAuthIDSDK_Example";
+			productName = "Pods-RYXAuthIDSDK_Example";
+			productReference = E223BF83644B4B29388EF6B150896E1A /* Pods_RYXAuthIDSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BD78C00273F71A1509D2F5DB16788DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D988A82622DCD581C739C7DF3BC844F /* Pods-RYXAuthIDSDK_Example */,
+				1EDE2F00697FBAB8D80086C156CA80C2 /* Pods-RYXAuthIDSDK_Tests */,
+				3FC5D19612BA37AF7EE5718322549FCD /* RYXAuthIDSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C734023AD8249C49C0E01BCDA6FCC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84628301270C339C4D509BE207E0E413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4270058C46230805C8946DE716E004C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1117825352EF164256D3E0DF32D4E604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DE583A09A3C2B678CD589ABA983070 /* Pods-RYXAuthIDSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E098CD771A511C6F7A8B6091EF01E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB072ACD2396344000CD6953 /* RYXLabel.m in Sources */,
+				6E11BEE2BC9EA93DDDB278E6A0025C08 /* Pods-RYXAuthIDSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B8B3AFFE9F5AD4DD38B6F36C4C00CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15C222E8E858272D84F8884C0BA8BB9 /* RYXAuthIDSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EC44FD2E5A53BC65EFE01A79EDE7D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RYXAuthIDSDK;
+			target = 3FC5D19612BA37AF7EE5718322549FCD /* RYXAuthIDSDK */;
+			targetProxy = BE2B71689FC7F2018537C96FE5170CC2 /* PBXContainerItemProxy */;
+		};
+		9AEBBE2D5574EEDB62D38400A9A981EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RYXAuthIDSDK_Example";
+			target = 8D988A82622DCD581C739C7DF3BC844F /* Pods-RYXAuthIDSDK_Example */;
+			targetProxy = 2FCFB451FF3966A26E58ABD1B6182267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05701296D63F9F5905FA6A2D868DA063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3755F69BA4C6BCBB9D29983047DC5BB1 /* Pods-RYXAuthIDSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Tests/Pods-RYXAuthIDSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Tests/Pods-RYXAuthIDSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16629551E0BF2AACED4408270BCE3BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA142F448DC9BE1E57DD53610D0FCD3 /* RYXAuthIDSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYXAuthIDSDK/RYXAuthIDSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYXAuthIDSDK/RYXAuthIDSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYXAuthIDSDK/RYXAuthIDSDK.modulemap";
+				PRODUCT_MODULE_NAME = RYXAuthIDSDK;
+				PRODUCT_NAME = RYXAuthIDSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D095831A9A7FEC5A10AB66EA8585085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4150209CCB480325F58C765AA2778798 /* Pods-RYXAuthIDSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Example/Pods-RYXAuthIDSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Example/Pods-RYXAuthIDSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		676C4D249D2710F475C50473003E7A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA142F448DC9BE1E57DD53610D0FCD3 /* RYXAuthIDSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYXAuthIDSDK/RYXAuthIDSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYXAuthIDSDK/RYXAuthIDSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYXAuthIDSDK/RYXAuthIDSDK.modulemap";
+				PRODUCT_MODULE_NAME = RYXAuthIDSDK;
+				PRODUCT_NAME = RYXAuthIDSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C1B8A93BA0B3CA68F33338F3B16B725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA27F5E37C222F6F10BC7015E49A611 /* Pods-RYXAuthIDSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Example/Pods-RYXAuthIDSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Example/Pods-RYXAuthIDSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9C885163024AFD355B955EAE6FDA177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814FC99EDE62112F2D5B63D5A0840FBE /* Pods-RYXAuthIDSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Tests/Pods-RYXAuthIDSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYXAuthIDSDK_Tests/Pods-RYXAuthIDSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61B28753771113412054EA64FAB7877 /* Build configuration list for PBXNativeTarget "Pods-RYXAuthIDSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C885163024AFD355B955EAE6FDA177 /* Debug */,
+				05701296D63F9F5905FA6A2D868DA063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41C41B657F0B90565A7B346AC039A29 /* Build configuration list for PBXNativeTarget "Pods-RYXAuthIDSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1B8A93BA0B3CA68F33338F3B16B725 /* Debug */,
+				1D095831A9A7FEC5A10AB66EA8585085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AE9DC4A04A5F050CCB96C94C8DEB0F /* Build configuration list for PBXNativeTarget "RYXAuthIDSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676C4D249D2710F475C50473003E7A04 /* Debug */,
+				16629551E0BF2AACED4408270BCE3BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

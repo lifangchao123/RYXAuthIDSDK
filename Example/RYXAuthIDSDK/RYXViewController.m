@@ -7,6 +7,7 @@
 //
 
 #import "RYXViewController.h"
+#import "RYXAuthIDSDK/RYXLabel.h"
 
 @interface RYXViewController ()
 
@@ -17,13 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    CGFloat labelX = ([UIScreen mainScreen].bounds.size.width - 200) * 0.5;
+    CGFloat labelY = ([UIScreen mainScreen].bounds.size.height - 100) * 0.5;
+    RYXLabel *label = [[RYXLabel alloc] initWithFrame:CGRectMake(labelX, labelY, 200, 100)];
+    label.text = @"这是一个测试demo";
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
