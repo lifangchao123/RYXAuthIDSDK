@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "CFAuthID.h"
+#import "CFToolManager.h"
+#import "CommonHeaders.h"
 
 FOUNDATION_EXPORT double RYXAuthIDSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char RYXAuthIDSDKVersionString[];

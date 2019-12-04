@@ -3,6 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'RYXAuthIDSDK_Example' do
+
   pod 'RYXAuthIDSDK', :path => '../'
 
   target 'RYXAuthIDSDK_Tests' do
@@ -10,4 +11,5 @@ target 'RYXAuthIDSDK_Example' do
 
     
   end
+
 end

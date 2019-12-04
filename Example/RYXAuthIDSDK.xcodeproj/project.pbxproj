@@ -498,8 +498,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HDBYH8T9V6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RYXAuthIDSDK\"",
+					"\"$(SRCROOT)/../RYXAuthIDSDK/Classes\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RYXAuthIDSDK/RYXAuthIDSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/RYXAuthIDSDK\"/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RYXAuthIDSDK\"",
+				);
 				INFOPLIST_FILE = "RYXAuthIDSDK/RYXAuthIDSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -515,8 +524,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HDBYH8T9V6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RYXAuthIDSDK\"",
+					"\"$(SRCROOT)/../RYXAuthIDSDK/Classes\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RYXAuthIDSDK/RYXAuthIDSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/RYXAuthIDSDK\"/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RYXAuthIDSDK\"",
+				);
 				INFOPLIST_FILE = "RYXAuthIDSDK/RYXAuthIDSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
